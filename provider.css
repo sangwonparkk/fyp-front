@@ -1,0 +1,57 @@
+html {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 20px auto;
+}
+
+h1 {
+  font: bold 30px Arial;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  display: block;
+  width: 50px;
+  height: 15px;
+  background: #4e9caf;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  /* margin-bottom: 10px; */
+  line-height: 20px;
+  font: bold 12px Arial;
+}
+
+#login-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  display: inline-block;
+}
+
+form {
+  margin-block-end: 0;
+}
+
+.inside-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#join-button {
+  float: right;
+}
